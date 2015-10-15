@@ -1,0 +1,14 @@
+package spring.services;
+
+public  class CustomerServiceImp implements CustomerService{
+	
+
+	@Override
+	public double dispaly(int id, String name, double salary) {
+		
+		salary=salary+10;
+		System.out.println("CustomerServiceImplementation is working" );
+		return salary;
+		
+	}
+}

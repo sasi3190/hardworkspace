@@ -1,0 +1,8 @@
+package com.online.Interitance;
+
+public class Car extends Vehicle{
+	
+	public int totalDoor;
+	
+
+}

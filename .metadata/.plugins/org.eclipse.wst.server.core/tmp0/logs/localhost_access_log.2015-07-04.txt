@@ -1,0 +1,10 @@
+127.0.0.1 - - [04/Jul/2015:10:52:05 -0700] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [04/Jul/2015:10:52:06 -0700] "GET /Jsp_Servlet/AddEmployee.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jul/2015:10:52:34 -0700] "POST /Jsp_Servlet/create HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Jul/2015:10:52:37 -0700] "GET /Jsp_Servlet/index.jsp?message=Employee%20Created%20successfully HTTP/1.1" 200 347
+0:0:0:0:0:0:0:1 - - [04/Jul/2015:10:52:42 -0700] "GET /Jsp_Servlet/login.jsp HTTP/1.1" 200 647
+0:0:0:0:0:0:0:1 - - [04/Jul/2015:10:52:52 -0700] "POST /Jsp_Servlet/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Jul/2015:10:52:52 -0700] "GET /Jsp_Servlet/home.jsp? HTTP/1.1" 200 396
+0:0:0:0:0:0:0:1 - - [04/Jul/2015:10:52:55 -0700] "GET /Jsp_Servlet/view HTTP/1.1" 200 2860
+0:0:0:0:0:0:0:1 - - [04/Jul/2015:10:52:59 -0700] "GET /Jsp_Servlet/home.jsp HTTP/1.1" 200 396
+0:0:0:0:0:0:0:1 - - [04/Jul/2015:10:53:06 -0700] "GET /Jsp_Servlet/login.jsp HTTP/1.1" 200 647

@@ -1,0 +1,18 @@
+package com.online.practise;
+
+public class Overload {
+
+	public static void main(String[] args) {
+		Overload load=new Overload();
+		int prod=load.prod(2,3);
+		System.out.println("Result is: +prod");
+
+	}
+	public int prod;
+	public int prod(int a,int b){
+		prod = 1;
+		prod=a*b;
+		return prod;
+	}
+
+}

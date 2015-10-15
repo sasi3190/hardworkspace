@@ -1,0 +1,78 @@
+package com.online.JSPServlet;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+//@WebServlet("/login")
+public class Login extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	Connection con=null;
+	
+	public void init(){
+		con=DBUtili.getConnection();
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doPost(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String uname = request.getParameter("uname");
+		String pwd = request.getParameter("pwd");
+		
+		try{
+			//-----oracle connection
+			/*String driver = "oracle.jdbc.driver.OracleDriver";
+			Class.forName(driver);
+			
+			String url = "jdbc:oracle:thin:@localhost:1521:xe";
+			String username = "system";
+			String password = "root";
+			Connection con = DriverManager.getConnection(url, username, password);
+			//----My SQL connection
+			String driver ="com.mysql.jdbc.Driver";
+			Class.forName(driver);
+			String url ="jdbc:mysql://localhost/MYSQL";
+			String username = "sasi";
+			String password = "root";
+			Connection con = DriverManager.getConnection(url, username, password);*/
+			
+			String query = "select * from employee where uname=? and pwd=?";
+			PreparedStatement ps = con.prepareStatement(query);
+			ps.setString(1, uname);
+			ps.setString(2, pwd);
+			
+			ResultSet rs = ps.executeQuery();
+			HttpSession session = request.getSession();
+			
+			if(rs.next()){
+				session.setAttribute("user",uname);
+				//---------which using session we passing the username during the session pass----
+				//response.sendRedirect("home.jsp?user=" +uname);
+				response.sendRedirect("home.jsp?");
+			}else{
+				response.sendRedirect("login.jsp?message=Invalid credentials");
+			}
+			
+			
+			
+		}catch(Exception e){e.printStackTrace();}
+	}
+	public void destroy(){
+		try{
+		con.close();
+		}
+		catch(Exception e){e.printStackTrace();}
+	}
+
+}

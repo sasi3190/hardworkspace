@@ -1,0 +1,18 @@
+package com.online.practise;
+
+public class Student {
+
+	public static void main(String args[]) {
+		int lastN;
+		String lastName;
+		String SName="Sasikumar Subramani";
+		System.out.println("Complete name:"+SName);
+		lastN=SName.indexOf('')+1;
+		lastName=SName.substring(lastN);
+		System.out.println("last name:"+lastName);
+		
+		
+
+	}
+
+}

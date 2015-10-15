@@ -1,0 +1,8 @@
+package com.online.practise;
+
+public interface carParts {
+	public void carColor();
+	public void carMake();
+	}
+
+

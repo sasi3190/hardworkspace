@@ -1,0 +1,15 @@
+package com.online.practise;
+
+public class Const {
+	 int x=10;
+	 int y=15;
+
+public int getX() {
+	
+	return x;
+}
+public void setX(int x) {
+	this.x = x;
+	System.out.println(x+""+y);
+}
+}

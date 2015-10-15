@@ -1,0 +1,27 @@
+package com.online.practise;
+
+public class Const {
+	 private double one;
+	 private double two;
+	 public static String Str="Item";
+public Const(){
+	one=0;
+	two=0;
+}
+
+public Const(double one,double two){
+	this.one = one;
+	this.two = two;
+	
+}
+public double getAverage(){
+	return (one+two)/2;
+	
+}
+public void setNum(double one,double two){
+	this.one =one;
+	this.two =two;
+	
+}
+
+}

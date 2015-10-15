@@ -1,0 +1,13 @@
+package com.online.practise;
+
+public class Greats {
+
+	public static void main(String[] args) {
+	Const obj=new Const();
+	
+	System.out.println("+obj.getX()");
+	
+
+	}
+
+}

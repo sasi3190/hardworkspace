@@ -1,0 +1,17 @@
+package com.online.practise;
+
+public class Cart implements carParts {
+	public void carColor()
+	{
+		System.out.println(" Black color cars are awesome");
+		
+	}
+	public void carMake()
+	{
+		System.out.println(" Ford mustang 2015 make");
+	}
+}
+
+
+	
+	

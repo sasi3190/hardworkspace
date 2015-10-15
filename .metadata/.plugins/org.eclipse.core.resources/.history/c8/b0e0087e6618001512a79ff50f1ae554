@@ -1,0 +1,26 @@
+package sample.com.example;
+
+public class HelloWorld {
+	
+	public static void main(String arg[]){
+		
+		String carCalor;//non synchronized
+		carCalor = Car.color;
+		String carShow = Car.show(); //--->memory allocated eg:117
+		StringBuffer str = new StringBuffer("hello");//syncronizable and thread safe
+		StringBuilder str1 = new StringBuilder("world");//non synchronized
+//		str = "name";-->117
+//		str = "female";--->117
+		//StringBuilder
+		
+		System.out.println(carCalor);
+		System.out.println(carShow);
+		
+		
+		Car car = new Car();
+		carShow = car.Display();//-------->memory allocated eg:118 
+		System.out.println(carShow);
+		
+	}
+
+}

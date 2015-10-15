@@ -1,0 +1,45 @@
+package com.online.practise;
+
+import java.util.ArrayList;
+
+public class Sum {
+	
+	public static void main(String arg[]){
+		
+		int[] number = new int[4];
+		ArrayList<Integer> array = new ArrayList<Integer>();
+		array.add(1);
+		array.add(2);
+		array.add(3);
+		array.add(4);
+		array.add(5);
+		
+		double[] value = new double[3];
+		value[0]=10;
+		value[1]=11.3;
+		value[2]=15.5;
+		
+		String[] name = new String[3];
+		name[0]="susti";
+		name[1]="sasi";
+		name[2]="kumar";
+		for(int i=0;i<number.length;i++){
+			number[i]= i;//number[0]=0;number[1]=1;number[2]=2;number[3]=3
+			System.out.println(number[i]);
+		}
+		
+		for(String oko:name){
+						//oko="shree";
+			System.out.println(oko);
+			
+		}
+		
+		
+		}
+		
+	
+
+
+}
+
+

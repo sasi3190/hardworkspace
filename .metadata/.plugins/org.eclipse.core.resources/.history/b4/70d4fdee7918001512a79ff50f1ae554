@@ -1,0 +1,11 @@
+package com.online.practise;
+
+public class Son extends Father{
+
+	@Override
+	public void familyName() {
+		
+		System.out.println("legal son");
+	}
+
+}

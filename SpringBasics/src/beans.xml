@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xmlns:context="http://www.springframework.org/schema/context"
+	 xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	 http://www.springframework.org/schema/context
+	 http://www.springframework.org/schema/context/spring-context-3.0.xsd ">
+	 
+	  <bean id="emp" class="com.online.spring.basics.Employee">
+	 	<!-- <property name="eno" value="101"/>
+	 	<property name="ename" value="Kiran"/> -->
+	 	
+	 	<constructor-arg value="144"/>
+	 	<constructor-arg value="Kumar"/>
+	 </bean>
+	 
+	 <bean id="emp2" class="com.online.spring.basics.Employee">
+	 	<!-- <qualifier/> -->
+	 	<!-- <property name="eno" value="101"/>
+	 	<property name="ename" value="Kiran"/> -->
+	 	
+	 	<constructor-arg value="103"/>
+	 	<constructor-arg value="Ravi"/>
+	 </bean>
+	
+	<!--  <bean id="pr" autowire="constructor" class="com.online.spring.basics.ProcessEmployee">
+	 	<property name="pno" value="345"/>
+	 	<property name="emp" ref="emp2"/>
+	 	
+	 	<constructor-arg value="346"/>
+	 	<constructor-arg ref="emp1"/>
+	 </bean> -->
+
+ 	<bean id="pr" class="com.online.spring.basics.ProcessEmployee">
+	 	
+ 	</bean>
+
+	<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
+	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+</beans>
+	 
+
+	 
+

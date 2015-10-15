@@ -1,0 +1,19 @@
+package sample.com.example;
+
+public class Car {
+	
+	public static String color = "red";
+	
+	
+
+	public static String show() {
+		// TODO Auto-generated method stub
+		String shw = "hello";
+		return shw;
+	}
+	public String Display(){
+		String shw = "display";
+		return shw;
+	}
+    
+}

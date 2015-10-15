@@ -1,0 +1,2 @@
+127.0.0.1 - - [16/Sep/2015:20:16:21 -0700] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [16/Sep/2015:20:16:22 -0700] "GET /Sasi/WEB-INF/classes/collection/list/arraylist/Arraylist.java HTTP/1.1" 404 952

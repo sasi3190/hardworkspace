@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Jsp Servlet</display-name>
+  <servlet>
+        <servlet-name>123</servlet-name>
+    	<servlet-class>com.online.JSPServlet.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  		<servlet-name>123</servlet-name>
+  		<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+        <servlet-name>232</servlet-name>
+    	<servlet-class>com.online.JSPServlet.View</servlet-class>
+  
+  		</servlet>
+  		
+  <servlet-mapping>
+  		<servlet-name>232</servlet-name>
+  		<url-pattern>/viewEmployee</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>333</servlet-name>
+  	<servlet-class>com.online.JSPServlet.Delete</servlet-class>
+  	
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>333</servlet-name>
+  	<url-pattern>/delete</url-pattern>
+  	
+  </servlet-mapping>
+      
+  		<servlet>
+  	<servlet-name>444</servlet-name>
+  	<servlet-class>com.online.JSPServlet.Edit</servlet-class>
+  	
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>444</servlet-name>
+  	<url-pattern>/edit</url-pattern>
+  	
+  </servlet-mapping>
+  
+   <context-param>
+  			<param-name>driver</param-name>
+  			<param-value>com.mysql.jdbc.Driver</param-value>
+  		</context-param>
+  		<context-param>
+  			<param-name>url</param-name>
+  			<param-value>jdbc:mysql://localhost/MYSQL</param-value>
+  		</context-param>
+  		<context-param>
+  			<param-name>username</param-name>
+  			<param-value>sasi</param-value>
+  		</context-param>
+  		<context-param>
+  			<param-name>password</param-name>
+  			<param-value>root</param-value>
+  		</context-param>
+  
+  		
+</web-app>

@@ -1,0 +1,13 @@
+package com.online.practise;
+
+public abstract class Father {
+	public abstract void familyName();
+	public static void main(String[] args){
+		Son S= new Son();
+		S.familyName();
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.online.practise;
+
+public class Greats {
+
+	public static void main(String[] args) {
+	Const ob1=new Const(10,20);
+	System.out.println(ob1.getAverage());
+	ob1.setNum(50, 40);
+	System.out.println(ob1.getAverage());
+	}
+
+}

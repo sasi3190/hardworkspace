@@ -1,0 +1,42 @@
+package com.online.Thread.copy;
+
+import java.util.Scanner;
+ 
+class prod extends Thread{
+	private boolean running = true;
+	public void run(){
+		while(running){
+			System.out.println("Motta Boss");
+			
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	public void shutdown(){
+		running=false;
+	}
+}
+
+public class BasicusageOfVolatile {
+
+	
+	public static void main(String[] args) {
+		prod pakki = new prod();
+		pakki.start();
+		
+		System.out.println("Press any key to stop !!!!!!!!!!");
+		Scanner scan = new Scanner(System.in);
+		scan.nextLine();
+		System.out.println("--------------It has been stopped----------");
+		
+		pakki.shutdown();
+		
+		
+
+	}
+
+}

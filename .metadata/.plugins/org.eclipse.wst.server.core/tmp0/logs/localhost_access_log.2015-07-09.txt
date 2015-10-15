@@ -1,0 +1,14 @@
+127.0.0.1 - - [09/Jul/2015:11:49:34 -0700] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:49:35 -0700] "GET /Jsp_Servlet/AddEmployee.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:50:11 -0700] "POST /Jsp_Servlet/create HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:50:12 -0700] "GET /Jsp_Servlet/index.jsp?message=Employee%20Created%20successfully HTTP/1.1" 200 347
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:50:28 -0700] "GET /Jsp_Servlet/login.jsp HTTP/1.1" 200 647
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:50:42 -0700] "POST /Jsp_Servlet/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:50:42 -0700] "GET /Jsp_Servlet/home.jsp? HTTP/1.1" 200 393
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:50:53 -0700] "GET /Jsp_Servlet/view HTTP/1.1" 200 3154
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:51:04 -0700] "GET /Jsp_Servlet/edit.jsp?eid=222&ename=vishnu&epay=100.0&ebonus=20.0&uname=vvv HTTP/1.1" 200 1268
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:51:37 -0700] "POST /Jsp_Servlet/edit HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:51:38 -0700] "GET /Jsp_Servlet/view HTTP/1.1" 200 3180
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:51:59 -0700] "GET /Jsp_Servlet/home.jsp HTTP/1.1" 200 393
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:52:02 -0700] "GET /Jsp_Servlet/logout.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/Jul/2015:11:52:02 -0700] "GET /Jsp_Servlet/login.jsp HTTP/1.1" 200 647

@@ -1,0 +1,6 @@
+package com.online.Interitance;
+
+public class Bike extends Car{
+int cc;
+int bhp;
+}

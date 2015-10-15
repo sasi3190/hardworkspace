@@ -1,0 +1,18 @@
+package com.online.practise;
+
+public class Car {
+	
+	public static String color = "red";
+	
+	
+
+	public static String show() {
+		String shw = "UR the boss";
+		return shw;
+	}
+	public String Display(){
+		String shw = "Boss da pannada";
+		return shw;
+	}
+    
+}

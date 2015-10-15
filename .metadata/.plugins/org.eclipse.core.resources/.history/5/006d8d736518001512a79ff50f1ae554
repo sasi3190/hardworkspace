@@ -1,0 +1,22 @@
+package com.online.practise;
+class Car implements CarParts{
+	
+	
+	
+	public void carColor() {
+		System.out.println("red");
+		
+		
+	}
+	
+	public void carType() {
+		System.out.println("ford mustang");
+	
+	}
+	public static void main(String[] args){
+		Car c=new Car();
+		c.carColor();
+		c.carType();
+		
+	}
+}

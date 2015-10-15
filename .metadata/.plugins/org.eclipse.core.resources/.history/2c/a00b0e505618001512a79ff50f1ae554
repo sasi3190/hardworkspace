@@ -1,0 +1,8 @@
+package sample.com.example;
+
+public interface CarParts {
+	
+	public String carColor(String color);
+	public String carType(String color);
+
+}

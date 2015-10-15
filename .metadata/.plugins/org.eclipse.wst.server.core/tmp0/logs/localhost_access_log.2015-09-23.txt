@@ -1,0 +1,13 @@
+127.0.0.1 - - [23/Sep/2015:21:28:52 -0700] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [23/Sep/2015:21:28:53 -0700] "GET /Jsp_Servlet/AddEmployee.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [23/Sep/2015:21:41:20 -0700] "POST /Jsp_Servlet/create HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Sep/2015:21:41:21 -0700] "GET /Jsp_Servlet/index.jsp?message=Employee%20Created%20successfully HTTP/1.1" 200 347
+0:0:0:0:0:0:0:1 - - [23/Sep/2015:21:41:45 -0700] "GET /Jsp_Servlet/login.jsp HTTP/1.1" 200 647
+0:0:0:0:0:0:0:1 - - [23/Sep/2015:21:41:57 -0700] "POST /Jsp_Servlet/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Sep/2015:21:41:57 -0700] "GET /Jsp_Servlet/home.jsp? HTTP/1.1" 200 395
+0:0:0:0:0:0:0:1 - - [23/Sep/2015:21:42:07 -0700] "GET /Jsp_Servlet/view HTTP/1.1" 200 4089
+0:0:0:0:0:0:0:1 - - [23/Sep/2015:21:43:40 -0700] "GET /Jsp_Servlet/home.jsp HTTP/1.1" 200 395
+0:0:0:0:0:0:0:1 - - [23/Sep/2015:21:45:24 -0700] "GET /Jsp_Servlet/logout.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Sep/2015:21:45:24 -0700] "GET /Jsp_Servlet/login.jsp HTTP/1.1" 200 647
+0:0:0:0:0:0:0:1 - - [23/Sep/2015:21:45:33 -0700] "POST /Jsp_Servlet/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [23/Sep/2015:21:45:33 -0700] "GET /Jsp_Servlet/login.jsp?message=Invalid%20credentials HTTP/1.1" 200 717

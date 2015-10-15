@@ -1,0 +1,34 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1444803443604
+executed,command,org.eclipse.equinox.p2.ui.sdk,1.0.200.v20110502-1955,"org.eclipse.equinox.p2.ui.sdk.install",1444803443625
+started,bundle,org.eclipse.epp.mpc.core,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.core",1444803461625
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1444803462432
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1444803491964
+error,log,,,"Cannot install remote marketplace locations.: ",1444803491984
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1444803492241
+started,bundle,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.ui.views.log",1444803500552
+opened,view,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.pde.runtime.LogView",1444803500867
+activated,view,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.pde.runtime.LogView",1444803500904
+error,log,,,"Unexpected exception",1444803508273
+error,log,,,"Unexpected exception",1444803523636
+error,log,,,"Unexpected exception",1444803526136
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1444803530713
+executed,command,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui.command.showMarketplaceWizard",1444803530735
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1444803543701
+error,log,,,"Cannot parse XML at URL http://marketplace.eclipse.org/catalogs/api/p",1444803556664
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1444803556714
+error,log,,,"Cannot install remote marketplace locations.: ",1444803556724
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1444803556787
+error,log,,,"Unexpected exception",1444803564260
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1444803573809
+executed,command,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui.command.showMarketplaceWizard",1444803573820
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1444803589213
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1444803658423
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.selectAll",1444803659626
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.selectAll",1444803671013
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1444803671846
+error,log,,,"Operation details",1444803698153
+error,log,,,"Operation details",1444803698163
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1444803727176
+executed,command,org.eclipse.equinox.p2.ui.sdk,1.0.200.v20110502-1955,"org.eclipse.equinox.p2.ui.sdk.install",1444803727190
+closed,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1444803752905

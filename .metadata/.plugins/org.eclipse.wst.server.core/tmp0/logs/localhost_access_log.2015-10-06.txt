@@ -1,0 +1,2 @@
+127.0.0.1 - - [06/Oct/2015:20:25:58 -0700] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [06/Oct/2015:20:25:59 -0700] "GET /Sasi/WEB-INF/classes/exceptionexample/Demo.java HTTP/1.1" 404 952
